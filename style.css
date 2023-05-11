@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(218, 250, 245);
+    font-family: 'Signika', sans-serif;
+}
+
+.container-body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.content-secundario {
+    height: 350px;
+    width: 400px;
+    background-color: rgba(53, 181, 165, 1);
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.content-secundario h2{
+    color: white;
+    text-align: center;
+}
+
+.content-infos input {
+    outline: none;
+    border: none;
+    border-radius: 13px;
+    width: 150px;
+    height: 25px;
+    margin-top: 5px;
+    display: flex;
+
+}
+
+.content-infos button {
+    width: 40px;
+    height: 25px;
+    border: none;
+    border-radius: 13px;
+    color: green;
+    
+}
+
+
+
