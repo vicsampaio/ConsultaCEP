@@ -14,27 +14,29 @@
         <form>
           <div class="content-infos">
             <label for="cep">Digite seu CEP<br /></label>
-            <input type="text" placeholder=" Ex: 07793880"/>
+            <input type="text" id="cep" name="cep" maxlength="8" placeholder=" Ex: 07793880"/>
             <button><i class="ph-bold ph-magnifying-glass"></i></button>
           </div>
           <div class="content-infos">
             <label for="rua">Rua<br/></label>
-            <input type="text"/>
+            <input type="text" id="rua" name="rua"/>
           </div>
           <div class="content-infos">
             <label for="bairro">Bairro<br/></label>
-            <input type="text"/>
+            <input type="text" id="bairro" name="bairro"/>
           </div>
           <div class="content-infos">
             <label for="cidade">Cidade<br/></label>
-            <input type="text"/>
+            <input type="text" id="cidade" name="cidade"/>
           </div>
           <div class="content-infos">
             <label for="estado">Estado<br/></label>
-            <input type="text"/>
+            <input type="text" id="estado" name="estado"/>
           </div>
         </form>
+        <a href="https://buscacepinter.correios.com.br/app/endereco/index.php">Não sei meu CEP</a>
       </div>
     </div>
+    <script src="./js/consulta-endereco.js"></script>
   </body>
 </html>
