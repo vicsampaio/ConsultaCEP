@@ -17,7 +17,7 @@ body {
 }
 
 .content-secundario {
-    height: 400px;
+    padding: 10px 0px 10px 0px;
     width: 400px;
     background-color: rgba(53, 181, 165, 1);
     border-radius: 13px;
@@ -51,6 +51,7 @@ body {
     border: none;
     border-radius: 13px;
     color: green;
+    cursor: pointer;
     
 }
 
