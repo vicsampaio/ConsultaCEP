@@ -55,5 +55,17 @@ body {
     
 }
 
+.anchor {
+    text-decoration: none;
+    color:  rgb(226, 247, 244);
+}
+@media (max-width: 450px) {
+.content-secundario {
+        display: flex;
+        justify-content: center;
+        width: 350px;
 
-
+    }
+  
+ }
+                         
